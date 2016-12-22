@@ -1,0 +1,38 @@
+/* CSS variables */
+:root {
+	--base: #1a0000;
+	--spacing: 10px;
+	--hue-rotate: 90deg;
+}
+
+body {
+	background-color: #EDF2F6;
+	font-family: 'Dosis', sans-serif;
+}
+
+img {
+	padding: var(--spacing);
+	background: var(--base);
+	filter: hue-rotate(var(--hue-rotate));
+	width: 100%;
+}
+
+.wrapper {
+
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+label {
+	margin: 10px 0 5px;
+	display: block;
+}
+
+input {
+	display: block;
+	margin-bottom: 20px;
+}

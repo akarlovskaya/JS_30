@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Update CSS Variables</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<h1>Update CSS Variables with JS</h1>
+
+		<div class="controls">
+			<label for="spacing">Spacing:</label>
+			<input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+			<label for="hue-rotate">Hue-rotate:</label>
+			<input type="range" name="hue-rotate" min="0" max="90" value="0" data-sizing="deg">
+
+			<label for="base">Base Color</label>
+			<input type="color" name="base" value="#1a0000">
+			
+		</div>
+			
+		<img src="https://unsplash.it/800/500/?random">
+	</div>
+
+<script>
+	// get all input tags
+	const inputs = document.querySelectorAll('.controls input');
+
+	// set event listeners for each input
+	inputs.forEach( input => input.addEventListener('change', handleUpdate) );
+	inputs.forEach( input => input.addEventListener('mousemove', handleUpdate) );
+
+	function handleUpdate() {
+		const suffix = this.dataset.sizing || '';
+		document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
+	}
+</script>
+
+</body>
+</html>

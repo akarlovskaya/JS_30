@@ -1,0 +1,112 @@
+html {
+	--eyes_color: #1a0000;
+	--eyes_size: 1.6;
+	--bag_color: url(#SVGID_1_);
+	--hat_color: #C01F31;
+	--hue-rotate: 90deg;
+
+
+}
+
+/* deer and santa svg original style */
+	.st0{fill:#D6D6D6;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:#967853;}
+	.st3{fill:url(#SVGID_2_);}
+	.st4{fill:#231F20;}
+	.st5{fill:#EEB47E;}
+	.st6{fill:#896948;}
+	.st7{fill:#CE9D6E;}
+	.st8{fill:url(#SVGID_3_);}
+	.st9{fill:#93111D;}
+	.st10{fill:url(#SVGID_4_);}
+	.st11{fill:url(#SVGID_5_);}
+	.st12{fill:url(#SVGID_6_);}
+	.st13{fill:url(#SVGID_7_);}
+	.st14{fill:url(#SVGID_8_);}
+	.st15{fill:url(#SVGID_9_);}
+	.st16{fill:url(#SVGID_10_);}
+	.st17{fill:#A41724;}
+	.st18{fill:url(#SVGID_11_);}
+	.st19{fill:url(#SVGID_12_);}
+	.st20{fill:#FFFFFF;}
+	.st21{fill:#CCCCCC;}
+	.st22{fill:url(#SVGID_13_);}
+	.st23{fill:none;stroke:#231F20;stroke-width:1.6537;stroke-linecap:round;}
+	.st24{fill:url(#SVGID_14_);}
+	.st25{fill:#E6E6E6;}
+	.st26{fill:#C3996B;}
+	.st27{opacity:0.71;fill:#967853;}
+	.st28{fill:#754C28;}
+	.st29{fill:#4C2E0F;}
+	.st30{fill:url(#SVGID_15_);}
+	.st31{fill:#4D2B05;}
+	.st32{fill:url(#SVGID_16_);}
+	.st33{fill:url(#SVGID_17_);}
+	.st34{fill:url(#SVGID_18_);}
+	.st35{fill:#3B2314;}
+	.st36{fill:url(#SVGID_19_);}
+	.st37{fill:url(#SVGID_20_);}
+	.st38{fill:url(#SVGID_21_);}
+	.st39{fill:url(#SVGID_22_);}
+
+body {
+	background-color: #EDF2F6;
+	font-family: 'Dosis', sans-serif;
+}
+
+.container {
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	/*background: url(bg.png);*/
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 90vh;
+	width: 50%;
+	/*margin: 0 auto;*/
+	position: relative;
+	float: left;
+}
+
+.controls {
+	float: right;
+	width: 25%;
+}
+
+img {
+	filter: hue-rotate(var(--hue-rotate));
+}
+
+svg { 
+	width: 100%;
+	max-width: 550px;
+	position: absolute;
+	top: 35%;
+	left: 10%;
+/*	width: 200px;
+	height: 300px;*/
+}
+
+
+
+/* eyes */
+.st44 {
+	fill: var(--eyes_color);
+	r: var(--eyes_size);
+}
+
+.st1 {
+	fill: var(--bag_color);
+	/*r: var(--eyes_size);*/
+}
+
+.st16 {
+	fill: var(--hat_color);
+}
+
+/** {
+	border: 1px solid black;
+}*/

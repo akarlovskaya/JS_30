@@ -1,12 +1,13 @@
+/* set css variables values */
 html {
 	--eyes_color: #1a0000;
 	--eyes_size: 1.6;
 	--bag_color: url(#SVGID_1_);
 	--hat_color: #C01F31;
 	--hue-rotate: 90deg;
-
-
 }
+
+
 
 /* deer and santa svg original style */
 	.st0{fill:#D6D6D6;}
@@ -50,49 +51,44 @@ html {
 	.st38{fill:url(#SVGID_21_);}
 	.st39{fill:url(#SVGID_22_);}
 
+/* general style */
 body {
 	background-color: #EDF2F6;
 	font-family: 'Dosis', sans-serif;
 }
 
+h1 {
+	text-align: center;
+	margin-top: 20px;
+}
+
 .container {
 	max-width: 1500px;
 	margin: 0 auto;
+	display: -webkit-flex;
+	display: flex;
 }
 
 .wrapper {
-	/*background: url(bg.png);*/
 	background-repeat: no-repeat;
 	background-size: contain;
 	height: 90vh;
 	width: 50%;
-	/*margin: 0 auto;*/
-	position: relative;
 	float: left;
 }
 
 .controls {
 	float: right;
 	width: 25%;
+	margin-left: 20px;
 }
 
-img {
-	filter: hue-rotate(var(--hue-rotate));
+input,
+button {
+	margin-top: 10px;
 }
 
-svg { 
-	width: 100%;
-	max-width: 550px;
-	position: absolute;
-	top: 35%;
-	left: 10%;
-/*	width: 200px;
-	height: 300px;*/
-}
-
-
-
-/* eyes */
+/* set variables for changing spots */
 .st44 {
 	fill: var(--eyes_color);
 	r: var(--eyes_size);
@@ -100,13 +96,23 @@ svg {
 
 .st1 {
 	fill: var(--bag_color);
-	/*r: var(--eyes_size);*/
 }
 
 .st16 {
 	fill: var(--hat_color);
 }
 
-/** {
-	border: 1px solid black;
-}*/
+/* default bg image */
+img {
+	position: relative;
+	filter: hue-rotate(var(--hue-rotate));
+}
+
+/* deer and santa image */
+svg { 
+	width: 100%;
+	max-width: 550px;
+	position: absolute;
+	top: 40%;
+	left: 25%;
+}

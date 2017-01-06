@@ -8,9 +8,12 @@
 </head>
 
 <body>
+	<h1>Little changes with CSS and JS</h1>
 	<div class="container">
-		<div class="wrapper">
-		<img id="bg_image" src="bg.png">
+	
+		<div class="wrapper_image">
+			<img id="bg_image" src="bg.png">
+
 			<?xml version="1.0" encoding="utf-8"?>
 			<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -347,32 +350,32 @@
 		Sorry, your browser does not support inline SVG.
 		</svg>
 
-	</div> <!-- end .wrapper -->
+	</div> <!-- end .wrapper_image -->
 
 	<div class="controls">
-		<h1>Deer</h1>
+		<h2>Deer</h2>
 		<label for="eyes_size">Eyes Size</label>
-		<input type="range" name="eyes_size" min="1" max="10" value="1.6"> 
+		<input type="range" name="eyes_size" min="1" max="10" value="1.6"> <br>
 
 		<label for="eyes_color">Eyes Color</label>
 		<input type="color" name="eyes_color" value="#1a0000"> 
 
 
-		<h1>Santa Claus</h1>
-		<label for="bag">Bag Color</label>
-		<input type="color" name="bag" value="#c68c53"> 
+		<h2>Santa Claus</h2>
+		<label for="bag_color">Bag Color</label>
+		<input type="color" name="bag_color" value="#c68c53"> <br>
 
-		<label for="hat">Hat Color</label>
-		<input type="color" name="hat" value="#C01F31"> 
+		<label for="hat_color">Hat Color</label>
+		<input type="color" name="hat_color" value="#C01F31"> <br>
 
 		<!-- <label for="hat">Hat</label> -->
 		<button onclick="hatOff()">HatOff</button>
 
-		<h1>VR</h1>
+		<h2>Change background</h2>
 		<label for="hue-rotate">Hue-rotate:</label>
-		<input type="range" name="hue-rotate" min="0" max="90" value="0" data-sizing="deg">
+		<input type="range" name="hue-rotate" min="0" max="90" value="0" data-sizing="deg"><br>
 
-		<button onclick="newBg()">New BG</button>
+		<button onclick="newBg()">New BG!</button>
 
 	</div> <!-- end .controls -->
 	</div> <!-- end .container -->

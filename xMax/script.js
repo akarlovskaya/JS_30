@@ -1,4 +1,4 @@
-// color eyes size picker
+// colors and eyes size picker
 
 	const inputs = document.querySelectorAll('.controls input');
 
@@ -26,5 +26,5 @@ function hatOff() {
 function newBg() {
 	const img = document.getElementById('bg_image');
 	var ts = new Date().getTime();
-	img.src = 'https://unsplash.it/1000/800/?random&' + ts;
+	img.src = 'https://unsplash.it/1200/900/?random&' + ts;
 }

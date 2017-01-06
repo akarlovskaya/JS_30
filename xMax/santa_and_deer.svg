@@ -19,10 +19,10 @@
 	.st13{fill:url(#SVGID_7_);}
 	.st14{fill:url(#SVGID_8_);}
 	.st15{fill:url(#SVGID_9_);}
-	.st16{fill:url(#SVGID_10_);}
-	.st17{fill:#A41724;}
-	.st18{fill:url(#SVGID_11_);}
-	.st19{fill:url(#SVGID_12_);}
+	.st16{display:none;fill:url(#SVGID_10_);}
+	.st17{display:none;fill:#A41724;}
+	.st18{display:none;fill:url(#SVGID_11_);}
+	.st19{display:none;fill:url(#SVGID_12_);}
 	.st20{fill:#FFFFFF;}
 	.st21{fill:#CCCCCC;}
 	.st22{fill:url(#SVGID_13_);}

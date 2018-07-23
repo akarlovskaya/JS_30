@@ -13,7 +13,7 @@ let newUser = {
     email: 'jf@mymail.com'
 };
 
-myHttp.post('https://jsonplaceholder.typicode.com/users', newUser)
+// myHttp.post('https://jsonplaceholder.typicode.com/users', newUser)
     .then(data => console.log(data))
     .catch(err => console.log(err));
 
@@ -28,7 +28,7 @@ myHttp.update('https://jsonplaceholder.typicode.com/users', userInfoForUpdate, 1
     .then(data => console.log(data))
     .catch(err => console.log(err));
 
-//  Make DELETE request
+// //  Make DELETE request
 myHttp.deleteData('https://jsonplaceholder.typicode.com/users/1')
     .then(data => console.log(data))
     .catch(err => console.log(err));
